@@ -1,0 +1,90 @@
+.heading{
+font-family: "Times New Roman", Times, serif;
+font-size: 40px;
+letter-spacing: -0.4px;
+word-spacing: 1.4px;
+color: honeydew;
+font-weight: 400;
+text-decoration: underline rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+text-align: center;
+position: relative;
+}
+#bc{
+    background-image: linear-gradient(to bottom right,rgb(54, 204, 184),black);
+}
+.para{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 20px;
+letter-spacing: -0.6px;
+word-spacing: 2px;
+color: #07247B;
+font-weight: normal;
+text-decoration: overline rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+
+}
+.heading:hover{
+    color: #FFFFFF;
+text-shadow: 0 0 10px #FFFFFF;
+cursor: pointer;
+}
+.bu{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.spare{
+    display: flex;
+}
+.site{
+    color: #FFFFFF; 
+    background-color: rgb(255, 250, 205,0.5);
+text-shadow: 2px 2px 0 #36ccb8, 2px -2px 0 #36ccb8, -2px 2px 0 #36ccb8, -2px -2px 0 #36ccb8, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+#buttons{
+    background-image: linear-gradient(to right, black , grey);
+}
+#content{
+    background-image: url("contbc.jpg");
+    background-size: cover;
+}
+.center{
+    text-align: center;
+}
+.quote{
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.Inp{
+    color: #FF002B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.center{
+    text-align: center ;
+}
+#buttonbc{
+   background-color: rgb(189, 241, 241);
+}
+.left{
+    text-align: left;
+}
+.a img:hover{
+    cursor: pointer;
+    width: 50%;
+    height: auto;
+}
+input{
+    background-color: rgb(241, 241, 241);
+    border-radius: 25px;
+    padding: 6px;
+}
